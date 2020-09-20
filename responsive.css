@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media (min-width:320px) and (max-width:575px){
+	footer span {
+    	margin-bottom: 0;
+	}
+	ul.social {
+		margin: 0 0 45px;
+	}
+	.line {
+		padding: 45px 0 0;
+	}
+	
+}
+@media (max-width:767px){
+	header .row{
+		display: flex;
+	}
+	header .row .col-sm-8{
+		width: 50%;
+	}
+	.icon {
+    	margin-top: 11% !important;
+	}
+}
+@media (max-width:991px){
+	.icon{
+		display: block;
+		margin-top: 4%;
+		color: #333;
+		width: 100%;
+		text-align: right;
+	}
+	#myLinks {
+	  display: none;
+/*		position: fixed;*/
+		width: 100%;
+    	text-align: right;
+	}
+	header ul a {
+		padding: 0;
+	}
+	header ul li {
+		float: none;
+		padding: 10px 0 0 0;
+	}
+	header ul a:hover {
+		background: none;
+		color: gray;
+	}
+}
+@media (min-width:576px){
+	.container{
+		max-width: 540px;
+	}
+	.row{
+		display: flex;
+	}
+	.col-sm-3{
+	max-width: 25%;
+	width: 25%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-sm-4{
+	max-width: 33.33%;
+	width: 33.33%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-sm-5 {
+    max-width: 41.666667%;
+    width: 41.666667%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-sm-6 {
+    max-width: 50%;
+    width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-sm-7 {
+    max-width: 58.333333%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-sm-8 {
+    max-width: 66.666667%;
+    width: 66.666667%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-sm-9 {
+    max-width: 75%;
+    width: 75%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-sm-10 {
+    max-width: 83.333333%;
+    width: 83.333333%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-sm-11 {
+    max-width: 91.666667%;
+    width: 91.666667%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-sm-12 {
+    max-width: 100%;
+    width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+	
+}
+@media (min-width:768px){
+	.container{
+		max-width: 720px;
+	}
+}
+@media (min-width:992px){
+	.container{
+		max-width: 960px;
+	}
+}
+@media (min-width:1200px){
+	.container{
+		max-width:1140px;
+	}
+}
+
+
+
